@@ -23,7 +23,7 @@ public class Amazon {
 		System.out.println(c);**/
 		
 		driver.get("https://www.sportsmemorabilia.com/");
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		WebElement s = driver.findElement(By.id("3"));
 		Actions acc = new Actions(driver);
 		acc.moveToElement(s).perform();
